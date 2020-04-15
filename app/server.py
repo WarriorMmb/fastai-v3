@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1zVvS57j_0qpLD9HMbvlTThIX0AonKZaF'
+export_file_url = 'https://drive.google.com/uc?export=download&id=11nqBpgpaSsa_WS5LX-RYWGR-397jaQhd'
 export_file_name = 'export.pkl'
 
 #classes = ['c0-safe_driving', 'c1-texting_right', 'c2-talking_on_the_phone-right', 'c3-texting-left', 'c4-talking_on_the_phone-left', 'c5-operating_the_radio', 'c6-drinking', 'c7-reaching_behind', 'c8-hair_and_makeup', 'c9-talking_to_passenger','c10-safe_driving', 'c11-texting-right', 'c12-talking_on_the_phone-right', 'c13-texting-left', 'c14-talking_on_the phone-left', 'c15-operating_the_radio', 'c16-drinking', 'c17-reaching_behind', 'c18-hair_and_makeup', 'c19-talking_to_passenger']
